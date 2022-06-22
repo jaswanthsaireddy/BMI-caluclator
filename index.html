@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI caluclator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <h1><strong> BMI caluclator </strong></h1>
+    </header>
+    <section>
+        <div id="name">Enter the name
+            <span><input id="text"></span>
+        </div>
+        <div id="weight">Enter your weight in (kg)
+            <span><input type="text"></span>
+        </div>
+        <div id="height">Enter your height in (meter)
+            <span><input type="text"></span>
+        </div>
+        <button id="caluclate" type="submit">Caluclate</button>
+        <p id="error-message"></p>
+        <div id="BMI-result">your BMI-result is
+            <span><input type="text"></span>
+        </div>
+    </section>
+    <br><br>
+    <section class="table">
+        <div>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>weight</th>
+                    <th>height</th>
+                    <th>BMI</th>
+                    <th>Catoegry</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>Jaswanth</td>
+                    <td>60</td>
+                    <td>1.737</td>
+                    <td>19.886</td>
+                    <td>Healthy weight</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+                <tr>
+                    <td>Jaswanth</td>
+                    <td>60</td>
+                    <td>1.737</td>
+                    <td>19.886</td>
+                    <td>Healthy weight</td>
+                    <!-- <td>Edit</td>
+                    <td>Delete</td> -->
+
+                    <td class="fas fa-edit">edit</td>
+                    <td class="fas fa-trash-alt">Delete</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+</body>
+<script src="./index.js"></script>
+</html>
