@@ -98,3 +98,16 @@ caluclateButton.addEventListener("click",caluclateBMIOfUser);
    userheight.value = k.previousElementSibling.previousElementSibling.previousElementSibling.innerHTML;
    BMIResult.value = k.previousElementSibling.previousElementSibling.innerHTML;
  }
+
+ let BMIValuesOfUsers = {
+   name : "jaswanth",
+   weight : "60",
+   height : 1.78,
+   BMI_ : 19.677,
+   categery : "healhty"
+ }
+
+ localStorage.setItem("BMIValuesOfUsers",BMIValuesOfUsers)
+
+ BMIValuesOfUsers[0].push(name,userName.value)
+
