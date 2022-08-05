@@ -109,5 +109,7 @@ caluclateButton.addEventListener("click",caluclateBMIOfUser);
 
  localStorage.setItem("BMIValuesOfUsers",BMIValuesOfUsers)
 
+
+
  BMIValuesOfUsers[0].push(name,userName.value)
 
